@@ -1,0 +1,7 @@
+import * from music21
+
+mf = midi.MidiFile()
+mf.open('ex1a.mid')
+mf.read()
+mf.close()
+len(mf.tracks)
